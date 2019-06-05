@@ -1,0 +1,37 @@
+Filesystem Background Info:-     ( XFS  vs  BtrFS )
+-------------------------------
+ URL: http://docs.ceph.com/docs/jewel/rados/configuration/filesystem-recommendations/
+ 
+ 
+ 
+ ===================================  Xfs   vs    BtrFS   ========================================
+                                      `````````````````
+Q.) For Ceph ?
+>>> https://www.electronicdesign.com/industrial/what-s-difference-between-linux-ext-xfs-and-btrfs-file-systems
+
+                                    " Wait Check this out "
+                                    
+>>> https://unix.stackexchange.com/questions/186778/which-file-system-is-better-for-ceph                                    
+
+==> xfs for current use and btrfs for future use
+
+BtrFS : https://btrfs.wiki.kernel.org/index.php/Status
+
+$$$ Why not Btfs $$$
+>>> https://www.youtube.com/watch?v=wG8FUvSGROw                   *** Important ***
+
+Performncce stats for xfs , btrfs, ext
+>> https://infoteh.etf.ues.rs.ba/zbornik/2016/radovi/RSS-2/RSS-2-8.pdf
+
+
+===== Answer:- ======\
+Instagram uses --> XFS file_system
+                                                      CONCLUSION
+The purpose of this paper was to compare the performances of three 64bit filesystems using  modern SSD technology, 
+under Ubuntu Linux OS.Expected results were that the most modern filesystem, btrfs, will have significantly better performances 
+for allread tests,  but  it was detectable only  for random  read,and not  for sequential read  as  well.It  was  expected  that 
+the btrfs has a lowerwrite performance due to the CoW method, which was  confirmed in  all  tests. On  the  other  hand, two overwrite
+update filesystems, ext4 and xfs, exhibited very similar performance.We can  note that the btrfs filesystem is  still  not fully accepted
+for Ubuntu Linux distributions,as it is not in there commended choices during  the installation  procedures,  but has  to
+be installed additionally.On  the  other  hand,there  are numerous papers that  prove quality performance of  the btrfs filesystem
+on the other Linux distributions,like Centos, etc. in which the btrfs is present in the basic offer on the install
