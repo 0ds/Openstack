@@ -1,0 +1,15 @@
+An XFS filesystem has up to three parts: a data section, a log section, and a real-time section. 
+The real-time section is optional, and the log section can be separate from the data section or 
+contained within it. 
+
+
+          
+            3 Parts in Xfs:-
+                --> Logsection
+                --> data section 
+                --> real-time section
+                
+Xfs man page:- https://www.systutorials.com/docs/linux/man/5-xfs/
+Bitmap_Allocator :- http://www.susaaland.dk/sharedoc/libstdc++-devel-4.0.2/html/ext/ballocator_doc.html
+Xfs realtime :- http://xfs.org/docs/xfsdocs-xml-dev/XFS_User_Guide/tmp/en-US/html/ch04s09.html            *** Important  ***
+Discussion over realtime device use:- http://xfs.9218.n7.nabble.com/realtime-partition-support-td7984.html
