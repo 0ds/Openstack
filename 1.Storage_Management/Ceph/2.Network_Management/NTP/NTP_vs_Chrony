@@ -1,0 +1,14 @@
+Sugession :-
+===========
+>>> Dont use Chronyd service rather use NTPd in ceph.
+
+If u don't trust me the see through these:-----------------
+1.) NTP vs Chrony
+    -------------
+    URL:- https://chrony.tuxfamily.org/comparison.html
+
+2.) Ceph official github"
+    --------------------
+    URL:- https://github.com/ceph/ceph-ansible/issues/3086
+
+
