@@ -1,0 +1,8 @@
+1. create ssh key
+2. from all hosts disable
+   in file >>>>>>>>>      vi /etc/ssh/sshd_config
+                    # To disable tunneled clear text passwords, change to no here!
+                    PasswordAuthentication yes --------------------> and un-comment this
+                    #PermitEmptyPasswords no
+                    #PasswordAuthentication no -------------------->  comment this as shown
+
