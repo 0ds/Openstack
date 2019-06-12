@@ -1,0 +1,46 @@
+URL:- 
+    https://stonefly.com/resources/what-is-file-level-storage-vs-block-level-storage
+    
+    
+    
+
+What is File Level Storage vs. Block Level Storage?
+
+The two most popular storage system technologies are file level storage and block level storage. File level storage is seen 
+and deployed in Network Attached Storage (NAS) systems. Block level storage is seen and deployed in Storage Area Network (SAN) 
+storage. In the article below, we will explain the major differences between file level storage vs. block level storage. File
+Level Storage – This storage technology is most commonly used for storage systems, which is found in hard drives, NAS systems
+and so on. In this File Level storage, the storage disk is configured with a protocol such as NFS or SMB/CIFS and the files
+are stored and accessed from it in bulk.
+
+    The File level storage is simple to use and implement.
+    It stores files and folders and the visibility is the same to the clients accessing and to the system which stores it.
+    This level storage is inexpensive to be maintained, when it is compared to its counterpart i.e. block level storage.
+    Network attached storage systems usually depend on this file level storage.
+    File level storage can handle access control, integrate integration with corporate directories; and so on.
+    “Scale Out NAS” is a type of File level storage that incorporates a distributed file system that can scale a single volume 
+    with a single namespace across many nodes. Scale Out NAS File level storage solutions can scale up to several petabytes all 
+    while handling thousands of clients. As capacity is scaled out, performance is scaled up.
+
+
+Block Level Storage – In this block level storage, raw volumes of storage are created and each block can be controlled as 
+an individual hard drive. These Blocks are controlled by server based operating systems and each block can be individually 
+formatted with the required file system.
+
+    Block level storage is usually deployed in SAN or storage area network environment.
+    This level of storage offers boot-up of systems which are connected to them.
+    Block level storage can be used to store files and can work as storage for special applications like databases, Virtual machine file systems and so on.
+    Block level storage data transportation is much efficient and reliable.
+    Block level storage supports individual formatting of file systems like NFS, NTFS or SMB (Windows) or VMFS (VMware) which are required by the applications.
+    Each storage volume can be treated as an independent disk drive and it can be controlled by external server operating system.
+    Block level storage uses iSCSI and FCoE protocols for data transfer as SCSI commands act as communication interface in 
+    between the initiator and the target.
+
+
+File Level Storage and Block Level Storage in a Single Appliance – All of StoneFly’s storage products can be licensed to 
+support File level storage volumes and Block level storage volumes in the same appliance.
+
+    The best of both worlds — create File level storage volumes for shared storage and Block level storage volumes for
+    dedicated storage.
+    Click here to view StoneFly products that can support both File and Block level storage.
+
