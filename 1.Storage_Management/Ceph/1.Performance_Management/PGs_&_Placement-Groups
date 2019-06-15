@@ -1,0 +1,16 @@
+Ceph: too many PGs per OSD
+>>> https://stackoverflow.com/questions/40771273/ceph-too-many-pgs-per-osd
+
+-------------
+
+PG:- Formula   ------------->> https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/1.3/html/storage_strategies_guide/placement_groups_pgs
+
+                (OSDs * 100)
+   Total PGs =  ------------
+                 pool size
+                 
+--------------
+
+
+                 
+                 
