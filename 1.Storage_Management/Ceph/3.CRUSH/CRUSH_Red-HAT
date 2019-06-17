@@ -1,0 +1,19 @@
+URL:-
+>>> https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/1.2.3/html/storage_strategies/configuring_storage_strategies
+
+Define a Storage Strategy: Storage strategies require you to analyze your use case, cost/benefit performance tradeoffs 
+    and data durability. Then, you create OSDs suitable for that use case. For example, you can create SSD-backed OSDs for 
+    a high performance pool or cache tier; SAS drive/SSD journal-backed OSDs for high-performance block device volumes and 
+    images; or, SATA-backed OSDs for low cost storage. Ideally, each OSD for a use case should have the same hardware configuration 
+    so that you have a consistent performance profile.
+Define a CRUSH Hierarchy: Ceph rules select a node (usually the root) in a CRUSH hierarchy, and identify the appropriate OSDs 
+    for storing placement groups and the objects they contain. You must create a CRUSH hierarchy and a CRUSH rule for your storage 
+    strategy (cache tiers require one for the hot tier and one for the cold or backing tier). CRUSH hierarchies get assigned directly
+    to a pool by the CRUSH ruleset setting; however, cache tiers are assigned to the backing tier, and the backing tier ruleset gets
+    assigned to the pool.
+Calculate Placement Groups: Ceph shards a pool into placement groups. You need to set an appropriate number of placement 
+    groups for your pool, and remain within a healthy maximum number of placement groups in the event that you assign multiple
+    pools to the same CRUSH ruleset.
+Create a Pool: Finally, you must create a pool and determine whether it uses replicated or erasure-coded storage and 
+    whether it supports a cache tier. You must set the number of placement groups for the pool, the ruleset for the pool 
+    and the durability (size or K+M coding chunks)
