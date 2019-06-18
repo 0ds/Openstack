@@ -1,0 +1,12 @@
+$ ceph osd find 37
+{
+    "osd": 37,
+    "ip": "172.16.4.68:6804\/636",
+    "crush_location": {
+        "datacenter": "pa2.ssdr",
+        "host": "lxc-ceph-main-front-osd-03.ssdr",
+        "physical-host": "store-front-03.ssdr",
+        "rack": "pa2-104.ssdr",
+        "root": "ssdr"
+    }
+}
