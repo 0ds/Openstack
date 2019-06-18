@@ -1,0 +1,28 @@
+# ceph tell osd.* version           ================> Command
+
+
+
+	
+
+osd.0: {
+    "version": "ceph version 0.94.5-224-g4051bc2 (4051bc2a5e4313ac0f6236d7a34ed5fb4a1d9ea2)"
+}
+osd.1: {
+    "version": "ceph version 0.94.5-224-g4051bc2 (4051bc2a5e4313ac0f6236d7a34ed5fb4a1d9ea2)"
+}
+osd.2: {
+    "version": "ceph version 0.94.5-224-g4051bc2 (4051bc2a5e4313ac0f6236d7a34ed5fb4a1d9ea2)"
+}
+osd.3: {
+    "version": "ceph version 0.94.6 (e832001feaf8c176593e0325c8298e3f16dfb403)"
+}
+osd.4: {
+    "version": "ceph version 0.94.6 (e832001feaf8c176593e0325c8298e3f16dfb403)"
+}
+osd.5: {
+    "version": "ceph version 0.94.6 (e832001feaf8c176593e0325c8298e3f16dfb403)"
+}
+osd.6: {
+    "version": "ceph version 0.94.6 (e832001feaf8c176593e0325c8298e3f16dfb403)"
+}
+...
